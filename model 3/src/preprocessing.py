@@ -3,11 +3,11 @@ from torchvision.datasets import ImageFolder
 from torch.utils.data import DataLoader
 
 # PREVIOUSLY CALCULATED STATS
-MEAN = (0.4205, 0.2803, 0.1717)
-STD = (0.2456, 0.1677, 0.1054)
+MEAN = (0.4221, 0.2807, 0.1715)
+STD = (0.2950, 0.2172, 0.1637)
 
-IMG_SIZE = 256
-BATCH_SIZE = 32
+IMG_SIZE = 384
+BATCH_SIZE = 48
 
 train_transform = transforms.Compose([
 
